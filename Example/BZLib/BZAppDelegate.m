@@ -7,12 +7,15 @@
 //
 
 #import "BZAppDelegate.h"
+#import <BZLib/Tool.h>
+
 
 @implementation BZAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [Tool sayHello];
     return YES;
 }
 
